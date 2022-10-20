@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+}
+
+.container2 {
+display: flex;
+}
+
+.container3 {
+display: flex;
+}
+
+.buybtn {
+background-color: #34ad29;
+color: white;
+}

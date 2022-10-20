@@ -1,0 +1,117 @@
+
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'home.css' %}">
+    <title></title>
+</head>
+<body>
+
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          padding: 10px;
+          background-color: #dddddd;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <ul>
+          <li><a href="home">Home</a></li>
+          
+          <li><a href="contact_us">Contact</a></li>
+    
+          <li><a href="{% url 'login'%}">Logout</a></li>
+        </ul>
+
+
+  
+<section class="container">
+<div>
+    <img  src="{% static 'image/pulsar.jpeg'%}" width="450px" height="250px">
+    {% comment %} <button type="submit" class="detailsbtn">Details</button> {% endcomment %}
+    <p> $ 500</p>
+    <a href="{% url 'pulsar'%}"><button type="submit" class="buybtn">Buy Now</button></a>
+</div>
+<div>
+    <img  src="{% static 'image/ktm.jpeg'%}" width="450px" height="250px">
+    {% comment %} <button type="submit" class="detailsbtn">Details</button> {% endcomment %}
+    <p> $ 700</p>
+    <a href="{% url 'ktm'%}"><button type="submit" class="buybtn">Buy Now</button></a>
+</div>
+<div>
+    <img  src="{% static 'image/passion.jpeg'%}" width="450px" height="250px">
+    {% comment %} <button type="submit" class="detailsbtn">Details</button> {% endcomment %}
+    <p> $ 400</p>
+    <a href="{% url 'passion'%}"><button type="submit" class="buybtn">Buy Now</button></a>
+</div>
+
+</section>
+
+
+<section class="container2">
+   
+    <div>
+        <img  src="{% static 'image/r6.jpeg'%}" width="450px" height="250px">
+        {% comment %} <button type="submit" class="detailsbtn">Details</button> {% endcomment %}
+        <p> $ 600</p>
+        <button type="submit" class="buybtn">Buy Now</button>
+    </div>
+    <div>
+        <img  src="{% static 'image/r15.jpeg'%}" width="450px" height="250px">
+        {% comment %} <button type="submit" class="detailsbtn">Details</button> {% endcomment %}
+        <p> $ 550</p>
+        <button type="submit" class="buybtn">Buy Now</button>
+    </div>
+    <div>
+        <img  src="{% static 'image/FZ.jpeg'%}" width="450px" height="250px">
+        {% comment %} <button type="submit" class="detailsbtn">Details</button> {% endcomment %}
+        <p> $ 500</p>
+        <button type="submit" class="buybtn">Buy Now</button>
+    </div>
+ 
+    </section>
+
+    <section class="container3">
+   
+        <div>
+            <img  src="{% static 'image/bmw.jpeg'%}" width="450px" height="250px">
+            {% comment %} <button type="submit" class="detailsbtn">Details</button> {% endcomment %}
+            <p> $ 750</p>
+            <button type="submit" class="buybtn">Buy Now</button>
+        </div>
+        <div>
+            <img  src="{% static 'image/zixer.jpeg'%}" width="450px" height="250px">
+            {% comment %} <button type="submit" class="detailsbtn">Details</button> {% endcomment %}
+            <p> $ 600</p>
+            <button type="submit" class="buybtn">Buy Now</button>
+        </div>
+        <div>
+            <img  src="{% static 'image/harley.jpeg'%}" width="450px" height="250px">
+            {% comment %} <button type="submit" class="detailsbtn">Details</button> {% endcomment %}
+            <p> $ 950</p>
+            <button type="submit" class="buybtn">Buy Now</button>
+        </div>
+        </section>
+
+
+</body>
+</html>

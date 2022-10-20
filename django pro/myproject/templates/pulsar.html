@@ -1,0 +1,42 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static 'reg.css' %}">
+    <title></title>
+</head>
+<body>
+ 
+    <div>
+        <img  src="{% static 'image/pulsar.jpeg'%}" width="450px" height="250px">
+        <p> Name :- Pulsar </p>
+        <p> Model Name :- Pulsar 2022 </p>
+        <p> Type :- Petrol </p>
+        <p> CC :- Pulsar 200 </p>
+        <p> Color :- Black </p>
+        
+        <h2>Payment<h2>
+
+            <div class="paybtn">
+            
+            <input id="cd-number" type="text" name="card-number"placeholder="Card number"> 
+            <input type="text" name="card-holder-name" placeholder="Card Holder name">
+            <input type="text" name="Expiry Date" placeholder="Expiry Date">
+            <input type="text" name="cvv-number" placeholder="Cvv-Number"> 
+            
+            
+            </div>
+            <a href="{% url 'thankyou'%}"><button type="submit">  Pay Now</button></a>
+            </div>
+        
+
+   
+ 
+    
+
+</body>
+</html>
