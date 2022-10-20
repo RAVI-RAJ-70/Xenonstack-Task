@@ -2,7 +2,15 @@
 Create a web app for Bike purchase
 
 Technologies uses :
-HTML, CSS, JavaScript, Bootstrap, MongoDB Atlas
+HTML, CSS, Python, Django
+
+first of all make a Registration page.
+then Register on website.
+then create a login page.
+after Login create a Home Page.
+In Home page we store some Bikes & Bikes Details.
+after that we create a database.
+the Last page is contact Us Page.
 
 
 ![Screenshot (416)](https://user-images.githubusercontent.com/95146504/196842766-d5e20b1f-8639-4110-94a2-16f880d030d3.png)
